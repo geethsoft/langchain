@@ -1,0 +1,11 @@
+
+# .gitattributes
+* text=auto
+
+# Explicitly set LF for specific files
+*.sh text eol=lf
+*.yml text eol=lf
+
+# Use CRLF for Windows-specific files
+*.bat text eol=crlf
+    

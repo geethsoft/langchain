@@ -1,0 +1,22 @@
+{
+    "name": "Documents",
+    "version": "1.0.0",
+    "description": "Documents Business",
+    "apps": {
+        "path": "apps",
+        "backend": {
+            "path": "apps/backend",
+            "core": {
+                "GIT_URL": "",
+                "apps": {},
+                "libs": {}
+            }
+        },
+        "frontend": {
+            "path": "apps/frontend"
+        },
+        "static": {
+            "path": "apps/static"
+        }
+    }
+}
